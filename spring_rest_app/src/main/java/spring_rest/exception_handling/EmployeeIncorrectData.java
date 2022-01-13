@@ -1,0 +1,20 @@
+package spring_rest.exception_handling;
+
+/*
+класс - информация для возникающих Exception
+ */
+public class EmployeeIncorrectData {
+
+    private String info;
+
+    public EmployeeIncorrectData() {
+    }
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+}
